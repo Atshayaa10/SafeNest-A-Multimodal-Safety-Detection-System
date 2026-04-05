@@ -1,5 +1,0 @@
-- [ ] Update `.gitignore` to include `.env` and Python cache
-- [ ] Create `.env` file with `GROQ_API_KEY`
-- [ ] Update `chat_analyzer.py` to use `dotenv` and environment variables
-- [ ] Sanitize Git history (reset and re-commit)
-- [ ] Verify functionality and push to GitHub
