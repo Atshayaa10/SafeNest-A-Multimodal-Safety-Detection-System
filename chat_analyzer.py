@@ -121,7 +121,7 @@ class ChatSafetyAnalyzer:
 
 
 def chat_simulation():
-    print(f"\n{Fore.GREEN}=== MelodyWings DB-Linked Chat Analyzer ==={Style.RESET_ALL}")
+    print(f"\n{Fore.GREEN}=== SafeNest DB-Linked Chat Analyzer ==={Style.RESET_ALL}")
     print("Type a message to simulate a live chat stream. Type 'exit' to quit.")
     
     analyzer = ChatSafetyAnalyzer()

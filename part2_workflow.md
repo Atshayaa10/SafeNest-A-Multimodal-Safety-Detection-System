@@ -1,4 +1,4 @@
-# MelodyWings: Part 2 Vision & Audio Pipeline
+# SafeNest: Part 2 Vision & Audio Pipeline
 
 ## Overview
 Part 2 expands the safety net into **Multimodal Analysis**. While Chat (Part 1) monitors text, Part 2 listens to what is being said in audio and scans what is being shown in video streams to detect physical threats, emotional distress, and inappropriate visual content.

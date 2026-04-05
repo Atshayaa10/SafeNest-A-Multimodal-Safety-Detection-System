@@ -17,7 +17,7 @@ except Exception:
 from chat_analyzer import ChatSafetyAnalyzer
 
 # Page configuration
-st.set_page_config(page_title="MelodyWings Safety Dashboard", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="SafeNest Safety Dashboard", page_icon="🛡️", layout="wide")
 
 # Initialize models in session state so they only load once
 if "analyzer" not in st.session_state:
@@ -28,7 +28,7 @@ if "logs" not in st.session_state:
     st.session_state.logs = []
 
 # Top Header
-st.title("🛡️ MelodyWings Real-Time Safety Dashboard")
+st.title("🛡️ SafeNest Real-Time Safety Dashboard")
 st.markdown("Live monitoring for **Text, Context, and Visual Threat Detection** using Llama-3, ToxicBERT, and Hugging Face.")
 
 # Layout

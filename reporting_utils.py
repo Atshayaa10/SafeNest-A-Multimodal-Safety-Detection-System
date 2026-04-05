@@ -11,7 +11,7 @@ def generate_csv_report(data, columns):
 class SafetyPDF(FPDF):
     def header(self):
         self.set_font('Arial', 'B', 15)
-        self.cell(0, 10, '🛡️ MelodyWings Safety Audit Report', 0, 1, 'C')
+        self.cell(0, 10, '🛡️ SafeNest Safety Audit Report', 0, 1, 'C')
         self.set_font('Arial', 'I', 10)
         self.cell(0, 10, f'Generated on: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}', 0, 1, 'R')
         self.ln(10)

@@ -1,7 +1,7 @@
-# MelodyWings: Part 1 Architecture & Workflow
+# SafeNest: Part 1 Architecture & Workflow
 
 ## Overview
-Part 1 of the MelodyWings safety system focuses on **Real-Time Text and Chat Moderation**. The goal is to analyze an ongoing stream of chat messages and instantly identify three major threats: Personally Identifiable Information (PII) leakage, Toxic Behavior (Cyberbullying), and Predatory Grooming.
+Part 1 of the SafeNest safety system focuses on **Real-Time Text and Chat Moderation**. The goal is to analyze an ongoing stream of chat messages and instantly identify three major threats: Personally Identifiable Information (PII) leakage, Toxic Behavior (Cyberbullying), and Predatory Grooming.
 
 To achieve enterprise-grade accuracy, we implemented a layered pipeline where the message passes through hard-coded rules, simple AI classifiers, and finally, a deep cognitive LLM.
 
